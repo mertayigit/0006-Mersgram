@@ -8,22 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		028B77F62039A3FB0096260A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B77F52039A3FB0096260A /* AppDelegate.swift */; };
-		028B77F82039A3FB0096260A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B77F72039A3FB0096260A /* FirstViewController.swift */; };
-		028B77FA2039A3FB0096260A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B77F92039A3FB0096260A /* SecondViewController.swift */; };
+		028B77F82039A3FB0096260A /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B77F72039A3FB0096260A /* feedVC.swift */; };
+		028B77FA2039A3FB0096260A /* uploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B77F92039A3FB0096260A /* uploadVC.swift */; };
 		028B77FD2039A3FB0096260A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028B77FB2039A3FB0096260A /* Main.storyboard */; };
 		028B77FF2039A3FC0096260A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028B77FE2039A3FC0096260A /* Assets.xcassets */; };
 		028B78022039A3FC0096260A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028B78002039A3FC0096260A /* LaunchScreen.storyboard */; };
+		028B780A2039A9D00096260A /* signVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B78092039A9D00096260A /* signVC.swift */; };
+		028B780C2039AB300096260A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 028B780B2039AB300096260A /* GoogleService-Info.plist */; };
+		028B780E2039CF110096260A /* Artboard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 028B780D2039CF110096260A /* Artboard.jpg */; };
+		028B78102039F6900096260A /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B780F2039F6900096260A /* feedCell.swift */; };
+		028B7811203A012F0096260A /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B7812203A012F0096260A /* SDWebImage.framework */; };
+		028B7813203A013A0096260A /* libwebp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 028B7814203A013A0096260A /* libwebp.framework */; };
+		D85FFE2A32C371E2693A08BE /* Pods_Mersgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6C8C7C5B1ACF96CA5BA1BA /* Pods_Mersgram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		028B77F22039A3FB0096260A /* Mersgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mersgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		028B77F52039A3FB0096260A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		028B77F72039A3FB0096260A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		028B77F92039A3FB0096260A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		028B77F72039A3FB0096260A /* feedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
+		028B77F92039A3FB0096260A /* uploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadVC.swift; sourceTree = "<group>"; };
 		028B77FC2039A3FB0096260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		028B77FE2039A3FC0096260A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		028B78012039A3FC0096260A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		028B78032039A3FC0096260A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028B78092039A9D00096260A /* signVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signVC.swift; sourceTree = "<group>"; };
+		028B780B2039AB300096260A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		028B780D2039CF110096260A /* Artboard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Artboard.jpg; sourceTree = "<group>"; };
+		028B780F2039F6900096260A /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		028B7812203A012F0096260A /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		028B7814203A013A0096260A /* libwebp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = libwebp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0487E1448B38DF0C8C992EB7 /* Pods-Mersgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mersgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mersgram/Pods-Mersgram.debug.xcconfig"; sourceTree = "<group>"; };
+		4C6C8C7C5B1ACF96CA5BA1BA /* Pods_Mersgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mersgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EA3B2FC1879A904340795EA /* Pods-Mersgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mersgram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mersgram/Pods-Mersgram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028B7813203A013A0096260A /* libwebp.framework in Frameworks */,
+				028B7811203A012F0096260A /* SDWebImage.framework in Frameworks */,
+				D85FFE2A32C371E2693A08BE /* Pods_Mersgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +61,8 @@
 			children = (
 				028B77F42039A3FB0096260A /* Mersgram */,
 				028B77F32039A3FB0096260A /* Products */,
+				CEEAE41D99DF8508154167C1 /* Pods */,
+				94E351307622B85B536125AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +78,37 @@
 			isa = PBXGroup;
 			children = (
 				028B77F52039A3FB0096260A /* AppDelegate.swift */,
-				028B77F72039A3FB0096260A /* FirstViewController.swift */,
-				028B77F92039A3FB0096260A /* SecondViewController.swift */,
+				028B77F72039A3FB0096260A /* feedVC.swift */,
+				028B77F92039A3FB0096260A /* uploadVC.swift */,
+				028B780D2039CF110096260A /* Artboard.jpg */,
+				028B78092039A9D00096260A /* signVC.swift */,
 				028B77FB2039A3FB0096260A /* Main.storyboard */,
 				028B77FE2039A3FC0096260A /* Assets.xcassets */,
 				028B78002039A3FC0096260A /* LaunchScreen.storyboard */,
 				028B78032039A3FC0096260A /* Info.plist */,
+				028B780B2039AB300096260A /* GoogleService-Info.plist */,
+				028B780F2039F6900096260A /* feedCell.swift */,
 			);
 			path = Mersgram;
+			sourceTree = "<group>";
+		};
+		94E351307622B85B536125AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				028B7814203A013A0096260A /* libwebp.framework */,
+				028B7812203A012F0096260A /* SDWebImage.framework */,
+				4C6C8C7C5B1ACF96CA5BA1BA /* Pods_Mersgram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEEAE41D99DF8508154167C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0487E1448B38DF0C8C992EB7 /* Pods-Mersgram.debug.xcconfig */,
+				5EA3B2FC1879A904340795EA /* Pods-Mersgram.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +118,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 028B78062039A3FC0096260A /* Build configuration list for PBXNativeTarget "Mersgram" */;
 			buildPhases = (
+				3F49BB1FFADB1438A8A2A520 /* [CP] Check Pods Manifest.lock */,
 				028B77EE2039A3FB0096260A /* Sources */,
 				028B77EF2039A3FB0096260A /* Frameworks */,
 				028B77F02039A3FB0096260A /* Resources */,
+				189BCEDCDF1344C4353A59FA /* [CP] Embed Pods Frameworks */,
+				2D8D5D65639EFB3951AD1D39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,7 +173,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				028B780E2039CF110096260A /* Artboard.jpg in Resources */,
 				028B78022039A3FC0096260A /* LaunchScreen.storyboard in Resources */,
+				028B780C2039AB300096260A /* GoogleService-Info.plist in Resources */,
 				028B77FF2039A3FC0096260A /* Assets.xcassets in Resources */,
 				028B77FD2039A3FB0096260A /* Main.storyboard in Resources */,
 			);
@@ -134,14 +183,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		189BCEDCDF1344C4353A59FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Mersgram/Pods-Mersgram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mersgram/Pods-Mersgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D8D5D65639EFB3951AD1D39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mersgram/Pods-Mersgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F49BB1FFADB1438A8A2A520 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mersgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		028B77EE2039A3FB0096260A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				028B77FA2039A3FB0096260A /* SecondViewController.swift in Sources */,
+				028B77FA2039A3FB0096260A /* uploadVC.swift in Sources */,
+				028B78102039F6900096260A /* feedCell.swift in Sources */,
+				028B780A2039A9D00096260A /* signVC.swift in Sources */,
 				028B77F62039A3FB0096260A /* AppDelegate.swift in Sources */,
-				028B77F82039A3FB0096260A /* FirstViewController.swift in Sources */,
+				028B77F82039A3FB0096260A /* feedVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +391,7 @@
 		};
 		028B78072039A3FC0096260A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0487E1448B38DF0C8C992EB7 /* Pods-Mersgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +406,7 @@
 		};
 		028B78082039A3FC0096260A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA3B2FC1879A904340795EA /* Pods-Mersgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -9,7 +9,15 @@
 import UIKit
 
 class feedCell: UITableViewCell {
-
+    
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var postImage: UIImageView!
+    @IBOutlet weak var postText: UITextView!
+    
+    
+    
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
